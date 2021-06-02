@@ -1,0 +1,33 @@
+.icon-raw {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: var(--main-border);
+
+  /*justify-content: space-between;*/
+  padding-bottom: 25px;
+}
+
+.icon-raw__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: color 0.3s ease-in-out;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.icon-raw__icon i {
+  font-size: 35px;
+}
+
+.icon-raw__icon span {
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.icon-raw__icon:hover {
+  cursor: pointer;
+  color: black;
+}
