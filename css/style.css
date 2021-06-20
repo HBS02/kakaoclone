@@ -25,3 +25,8 @@ body {
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
+
+.main-screen a {
+  color: black;
+  text-decoration: none;
+}
